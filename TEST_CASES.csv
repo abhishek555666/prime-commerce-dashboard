@@ -1,0 +1,21 @@
+Test_ID,Area,Action,Expected_Result,Actual_Result,Status,Evidence
+T01,Load,Open dashboard,Four summary cards and transaction table render,"Dashboard renders 4 KPI cards and transaction table on localhost:5173 (confirmed by user)",Pass,User live browser confirmation; Vite build succeeded
+T02,Data,Check total source rows,84 unique transactions,84 unique transaction_id records verified (PRM-TX-0001 to PRM-TX-0084 across 9 pages),Pass,Node assertion against src/data/transactions.json
+T03,Data,Check completed sales,Matches summary.json,"53 Completed orders summing to ₹2,01,095 (63.1%); matches summary.json",Pass,Node assertion against summary.json and formatters.js
+T04,Sort,Sort by date ascending,Oldest first,First record 2026-10-01 (oldest) to 2026-11-21 (newest),Pass,Node assertion on sortTransactions(tx 'date' 'asc')
+T05,Sort,Reverse date sort,Newest first,First record 2026-11-21 (newest) down to 2026-10-01,Pass,Node assertion on sortTransactions(tx 'date' 'desc')
+T06,Sort,Sort by amount,Numeric ordering,Numeric ascending order from ₹499 to ₹9,897,Pass,Node assertion on sortTransactions(tx 'amount_inr' 'asc')
+T07,Sort,Sort by transaction ID,Stable ordering,Deterministic order PRM-TX-0001 through PRM-TX-0084,Pass,Node assertion on sortTransactions(tx 'transaction_id' 'asc')
+T08,Filter,Select Completed,Only completed rows,53 matching rows all with status Completed,Pass,Node assertion on filterTransactions(status='Completed')
+T09,Filter,Select Marketplace,Only Marketplace rows,28 matching rows all with channel Marketplace,Pass,Node assertion on filterTransactions(channel='Marketplace')
+T10,Filter,Combine channel and status,Both filters respected,18 matching rows with channel Marketplace and status Completed,Pass,Node assertion on combined filterTransactions
+T11,Search,Search transaction ID,Matching record displayed,"Query 'PRM-TX-0010' returns 1 exact matching record (PRM-TX-0010)",Pass,Node assertion on filterTransactions(searchQuery='PRM-TX-0010')
+T12,Search,Search customer partial name,Case-insensitive match,"Query 'customer 005' returns 1 match (Customer 005 / PRM-TX-0005)",Pass,Node assertion on filterTransactions(searchQuery='customer 005')
+T13,Empty,Search unmatched token,Clear empty state,"Query 'NONEXISTENT_TOKEN_999' returns 0 rows; TransactionTable renders empty state + reset",Pass,Node assertion + TransactionTable.jsx inspection
+T14,Responsive,Viewport 320px,No sideways overflow,Layout renders cleanly with no horizontal overflow at 320px,Pass,Manual browser verification at 320px
+T15,Responsive,Viewport 390px,Controls usable,Mobile header toggle + 2x2 grid + stacked filters usable at 390px,Pass,Manual browser verification at 390px
+T16,Responsive,Viewport 768px,Cards and table adapt,Sidebar/cards/table adapt cleanly at 768px,Pass,Manual browser verification at 768px
+T17,Responsive,Viewport 1200px,Full desktop layout,4-column grid + sidebar + 6-column table render properly at 1200px,Pass,Manual browser verification at 1200px
+T18,Responsive,Viewport 1440px,Matches visual reference,Layout matches desktop_1440.png visual reference at 1440px,Pass,Manual browser verification at 1440px
+T19,Access,Keyboard navigation,Focus and sort accessible,"Focus ring visible and Tab, Shift+Tab, Enter, search, dropdowns, and sort headers operate via keyboard",Pass,"Manually verified keyboard navigation using Tab, Shift+Tab, Enter, and keyboard interaction with search and dropdown controls"
+T20,Build,npm run build and npm run lint,No errors or warnings,"eslint . exited 0 (0 warnings); vite build exited 0 (47 modules, dist built in 690ms)",Pass,Terminal output from npm run lint and npm run build
