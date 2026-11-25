@@ -1,0 +1,28 @@
+{
+  "statuses": [
+    "Completed",
+    "Refunded",
+    "Pending",
+    "Failed"
+  ],
+  "channels": [
+    "Online",
+    "Marketplace",
+    "Retail"
+  ],
+  "default_sort": {
+    "field": "date",
+    "direction": "desc"
+  },
+  "page_size": 10,
+  "search_fields": [
+    "transaction_id",
+    "customer_name",
+    "product"
+  ],
+  "sort_fields": [
+    "date",
+    "amount_inr",
+    "transaction_id"
+  ]
+}

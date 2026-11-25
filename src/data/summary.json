@@ -1,0 +1,38 @@
+{
+  "currency": "INR",
+  "reporting_period": {
+    "start": "2026-10-01",
+    "end": "2026-11-30"
+  },
+  "metric_cards": [
+    {
+      "id": "gross_sales",
+      "title": "Completed Sales",
+      "value": 201095,
+      "value_format": "currency",
+      "trend_pct": 8.4
+    },
+    {
+      "id": "orders",
+      "title": "Total Transactions",
+      "value": 84,
+      "value_format": "integer",
+      "trend_pct": 5.2
+    },
+    {
+      "id": "fulfilled",
+      "title": "Completed Orders",
+      "value": 53,
+      "value_format": "integer",
+      "trend_pct": 3.8
+    },
+    {
+      "id": "conversion",
+      "title": "Completion Rate",
+      "value": 63.1,
+      "value_format": "percentage",
+      "trend_pct": 1.7
+    }
+  ],
+  "trend_note": "trend_pct values are planning comparisons against a prior reference period; use as supplied display values, not live analytics"
+}

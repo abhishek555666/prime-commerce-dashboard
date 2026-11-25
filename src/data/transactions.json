@@ -1,0 +1,842 @@
+[
+  {
+    "transaction_id": "PRM-TX-0001",
+    "date": "2026-10-08",
+    "customer_name": "Customer 001",
+    "product": "Wireless Earbuds",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 2998,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0002",
+    "date": "2026-10-15",
+    "customer_name": "Customer 002",
+    "product": "USB-C Hub",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 7197,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0003",
+    "date": "2026-10-22",
+    "customer_name": "Customer 003",
+    "product": "Portable Charger",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1899,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0004",
+    "date": "2026-10-29",
+    "customer_name": "Customer 004",
+    "product": "Travel Backpack",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 5598,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0005",
+    "date": "2026-11-05",
+    "customer_name": "Customer 005",
+    "product": "Smart Watch",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 9897,
+    "status": "Refunded"
+  },
+  {
+    "transaction_id": "PRM-TX-0006",
+    "date": "2026-11-12",
+    "customer_name": "Customer 006",
+    "product": "Phone Stand",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 499,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0007",
+    "date": "2026-11-19",
+    "customer_name": "Customer 007",
+    "product": "Desk Lamp",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 2398,
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "PRM-TX-0008",
+    "date": "2026-10-05",
+    "customer_name": "Customer 008",
+    "product": "Bluetooth Speaker",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 6597,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0009",
+    "date": "2026-10-12",
+    "customer_name": "Customer 009",
+    "product": "Wireless Earbuds",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1499,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0010",
+    "date": "2026-10-19",
+    "customer_name": "Customer 010",
+    "product": "USB-C Hub",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 4798,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0011",
+    "date": "2026-10-26",
+    "customer_name": "Customer 011",
+    "product": "Portable Charger",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 5697,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0012",
+    "date": "2026-11-02",
+    "customer_name": "Customer 012",
+    "product": "Travel Backpack",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 2799,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0013",
+    "date": "2026-11-09",
+    "customer_name": "Customer 013",
+    "product": "Smart Watch",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 6598,
+    "status": "Refunded"
+  },
+  {
+    "transaction_id": "PRM-TX-0014",
+    "date": "2026-11-16",
+    "customer_name": "Customer 014",
+    "product": "Phone Stand",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 1497,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0015",
+    "date": "2026-10-02",
+    "customer_name": "Customer 015",
+    "product": "Desk Lamp",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1199,
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "PRM-TX-0016",
+    "date": "2026-10-09",
+    "customer_name": "Customer 016",
+    "product": "Bluetooth Speaker",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 4398,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0017",
+    "date": "2026-10-16",
+    "customer_name": "Customer 017",
+    "product": "Wireless Earbuds",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 4497,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0018",
+    "date": "2026-10-23",
+    "customer_name": "Customer 018",
+    "product": "USB-C Hub",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 2399,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0019",
+    "date": "2026-10-30",
+    "customer_name": "Customer 019",
+    "product": "Portable Charger",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 3798,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0020",
+    "date": "2026-11-06",
+    "customer_name": "Customer 020",
+    "product": "Travel Backpack",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 8397,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0021",
+    "date": "2026-11-13",
+    "customer_name": "Customer 021",
+    "product": "Smart Watch",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 3299,
+    "status": "Refunded"
+  },
+  {
+    "transaction_id": "PRM-TX-0022",
+    "date": "2026-11-20",
+    "customer_name": "Customer 022",
+    "product": "Phone Stand",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 998,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0023",
+    "date": "2026-10-06",
+    "customer_name": "Customer 023",
+    "product": "Desk Lamp",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 3597,
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "PRM-TX-0024",
+    "date": "2026-10-13",
+    "customer_name": "Customer 024",
+    "product": "Bluetooth Speaker",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 2199,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0025",
+    "date": "2026-10-20",
+    "customer_name": "Customer 025",
+    "product": "Wireless Earbuds",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 2998,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0026",
+    "date": "2026-10-27",
+    "customer_name": "Customer 026",
+    "product": "USB-C Hub",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 7197,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0027",
+    "date": "2026-11-03",
+    "customer_name": "Customer 027",
+    "product": "Portable Charger",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1899,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0028",
+    "date": "2026-11-10",
+    "customer_name": "Customer 028",
+    "product": "Travel Backpack",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 5598,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0029",
+    "date": "2026-11-17",
+    "customer_name": "Customer 029",
+    "product": "Smart Watch",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 9897,
+    "status": "Refunded"
+  },
+  {
+    "transaction_id": "PRM-TX-0030",
+    "date": "2026-10-03",
+    "customer_name": "Customer 030",
+    "product": "Phone Stand",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 499,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0031",
+    "date": "2026-10-10",
+    "customer_name": "Customer 031",
+    "product": "Desk Lamp",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 2398,
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "PRM-TX-0032",
+    "date": "2026-10-17",
+    "customer_name": "Customer 032",
+    "product": "Bluetooth Speaker",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 6597,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0033",
+    "date": "2026-10-24",
+    "customer_name": "Customer 033",
+    "product": "Wireless Earbuds",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1499,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0034",
+    "date": "2026-10-31",
+    "customer_name": "Customer 034",
+    "product": "USB-C Hub",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 4798,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0035",
+    "date": "2026-11-07",
+    "customer_name": "Customer 035",
+    "product": "Portable Charger",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 5697,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0036",
+    "date": "2026-11-14",
+    "customer_name": "Customer 036",
+    "product": "Travel Backpack",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 2799,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0037",
+    "date": "2026-11-21",
+    "customer_name": "Customer 037",
+    "product": "Smart Watch",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 6598,
+    "status": "Refunded"
+  },
+  {
+    "transaction_id": "PRM-TX-0038",
+    "date": "2026-10-07",
+    "customer_name": "Customer 038",
+    "product": "Phone Stand",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 1497,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0039",
+    "date": "2026-10-14",
+    "customer_name": "Customer 039",
+    "product": "Desk Lamp",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1199,
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "PRM-TX-0040",
+    "date": "2026-10-21",
+    "customer_name": "Customer 040",
+    "product": "Bluetooth Speaker",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 4398,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0041",
+    "date": "2026-10-28",
+    "customer_name": "Customer 041",
+    "product": "Wireless Earbuds",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 4497,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0042",
+    "date": "2026-11-04",
+    "customer_name": "Customer 042",
+    "product": "USB-C Hub",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 2399,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0043",
+    "date": "2026-11-11",
+    "customer_name": "Customer 043",
+    "product": "Portable Charger",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 3798,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0044",
+    "date": "2026-11-18",
+    "customer_name": "Customer 044",
+    "product": "Travel Backpack",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 8397,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0045",
+    "date": "2026-10-04",
+    "customer_name": "Customer 045",
+    "product": "Smart Watch",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 3299,
+    "status": "Refunded"
+  },
+  {
+    "transaction_id": "PRM-TX-0046",
+    "date": "2026-10-11",
+    "customer_name": "Customer 046",
+    "product": "Phone Stand",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 998,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0047",
+    "date": "2026-10-18",
+    "customer_name": "Customer 047",
+    "product": "Desk Lamp",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 3597,
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "PRM-TX-0048",
+    "date": "2026-10-25",
+    "customer_name": "Customer 048",
+    "product": "Bluetooth Speaker",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 2199,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0049",
+    "date": "2026-11-01",
+    "customer_name": "Customer 049",
+    "product": "Wireless Earbuds",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 2998,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0050",
+    "date": "2026-11-08",
+    "customer_name": "Customer 050",
+    "product": "USB-C Hub",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 7197,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0051",
+    "date": "2026-11-15",
+    "customer_name": "Customer 051",
+    "product": "Portable Charger",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1899,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0052",
+    "date": "2026-10-01",
+    "customer_name": "Customer 052",
+    "product": "Travel Backpack",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 5598,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0053",
+    "date": "2026-10-08",
+    "customer_name": "Customer 053",
+    "product": "Smart Watch",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 9897,
+    "status": "Refunded"
+  },
+  {
+    "transaction_id": "PRM-TX-0054",
+    "date": "2026-10-15",
+    "customer_name": "Customer 054",
+    "product": "Phone Stand",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 499,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0055",
+    "date": "2026-10-22",
+    "customer_name": "Customer 055",
+    "product": "Desk Lamp",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 2398,
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "PRM-TX-0056",
+    "date": "2026-10-29",
+    "customer_name": "Customer 056",
+    "product": "Bluetooth Speaker",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 6597,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0057",
+    "date": "2026-11-05",
+    "customer_name": "Customer 057",
+    "product": "Wireless Earbuds",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1499,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0058",
+    "date": "2026-11-12",
+    "customer_name": "Customer 058",
+    "product": "USB-C Hub",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 4798,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0059",
+    "date": "2026-11-19",
+    "customer_name": "Customer 059",
+    "product": "Portable Charger",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 5697,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0060",
+    "date": "2026-10-05",
+    "customer_name": "Customer 060",
+    "product": "Travel Backpack",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 2799,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0061",
+    "date": "2026-10-12",
+    "customer_name": "Customer 061",
+    "product": "Smart Watch",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 6598,
+    "status": "Refunded"
+  },
+  {
+    "transaction_id": "PRM-TX-0062",
+    "date": "2026-10-19",
+    "customer_name": "Customer 062",
+    "product": "Phone Stand",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 1497,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0063",
+    "date": "2026-10-26",
+    "customer_name": "Customer 063",
+    "product": "Desk Lamp",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1199,
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "PRM-TX-0064",
+    "date": "2026-11-02",
+    "customer_name": "Customer 064",
+    "product": "Bluetooth Speaker",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 4398,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0065",
+    "date": "2026-11-09",
+    "customer_name": "Customer 065",
+    "product": "Wireless Earbuds",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 4497,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0066",
+    "date": "2026-11-16",
+    "customer_name": "Customer 066",
+    "product": "USB-C Hub",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 2399,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0067",
+    "date": "2026-10-02",
+    "customer_name": "Customer 067",
+    "product": "Portable Charger",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 3798,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0068",
+    "date": "2026-10-09",
+    "customer_name": "Customer 068",
+    "product": "Travel Backpack",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 8397,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0069",
+    "date": "2026-10-16",
+    "customer_name": "Customer 069",
+    "product": "Smart Watch",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 3299,
+    "status": "Refunded"
+  },
+  {
+    "transaction_id": "PRM-TX-0070",
+    "date": "2026-10-23",
+    "customer_name": "Customer 070",
+    "product": "Phone Stand",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 998,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0071",
+    "date": "2026-10-30",
+    "customer_name": "Customer 071",
+    "product": "Desk Lamp",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 3597,
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "PRM-TX-0072",
+    "date": "2026-11-06",
+    "customer_name": "Customer 072",
+    "product": "Bluetooth Speaker",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 2199,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0073",
+    "date": "2026-11-13",
+    "customer_name": "Customer 073",
+    "product": "Wireless Earbuds",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 2998,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0074",
+    "date": "2026-11-20",
+    "customer_name": "Customer 074",
+    "product": "USB-C Hub",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 7197,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0075",
+    "date": "2026-10-06",
+    "customer_name": "Customer 075",
+    "product": "Portable Charger",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1899,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0076",
+    "date": "2026-10-13",
+    "customer_name": "Customer 076",
+    "product": "Travel Backpack",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 5598,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0077",
+    "date": "2026-10-20",
+    "customer_name": "Customer 077",
+    "product": "Smart Watch",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 9897,
+    "status": "Refunded"
+  },
+  {
+    "transaction_id": "PRM-TX-0078",
+    "date": "2026-10-27",
+    "customer_name": "Customer 078",
+    "product": "Phone Stand",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 499,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0079",
+    "date": "2026-11-03",
+    "customer_name": "Customer 079",
+    "product": "Desk Lamp",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 2398,
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "PRM-TX-0080",
+    "date": "2026-11-10",
+    "customer_name": "Customer 080",
+    "product": "Bluetooth Speaker",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 6597,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0081",
+    "date": "2026-11-17",
+    "customer_name": "Customer 081",
+    "product": "Wireless Earbuds",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 1499,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0082",
+    "date": "2026-10-03",
+    "customer_name": "Customer 082",
+    "product": "USB-C Hub",
+    "channel": "Marketplace",
+    "quantity": 2,
+    "amount_inr": 4798,
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "PRM-TX-0083",
+    "date": "2026-10-10",
+    "customer_name": "Customer 083",
+    "product": "Portable Charger",
+    "channel": "Retail",
+    "quantity": 3,
+    "amount_inr": 5697,
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "PRM-TX-0084",
+    "date": "2026-10-17",
+    "customer_name": "Customer 084",
+    "product": "Travel Backpack",
+    "channel": "Online",
+    "quantity": 1,
+    "amount_inr": 2799,
+    "status": "Completed"
+  }
+]

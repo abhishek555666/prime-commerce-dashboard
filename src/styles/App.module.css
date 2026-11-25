@@ -1,0 +1,90 @@
+.shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+}
+
+.main {
+  min-width: 0;
+}
+
+.workspace {
+  padding: 28px 36px 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.transactionsSection {
+  margin-top: 28px;
+}
+
+.sectionHeader {
+  margin-bottom: 16px;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #17263c;
+  line-height: 1.25;
+}
+
+.sectionSubtitle {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #61718b;
+  line-height: 1.4;
+}
+
+.tableArea {
+  background: #ffffff;
+  border: 1px solid #dfe6f0;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .shell {
+    grid-template-columns: 200px minmax(0, 1fr);
+  }
+
+  .workspace {
+    padding: 24px 24px 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .shell {
+    display: block;
+  }
+
+  .workspace {
+    padding: 0 20px 28px;
+  }
+
+  .transactionsSection {
+    margin-top: 24px;
+  }
+
+  .sectionTitle {
+    font-size: 20px;
+  }
+
+  .sectionSubtitle {
+    font-size: 12px;
+  }
+
+  .tableArea {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 359px) {
+  .workspace {
+    padding: 0 16px 24px;
+  }
+}

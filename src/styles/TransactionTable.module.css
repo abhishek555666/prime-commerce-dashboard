@@ -1,0 +1,248 @@
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.tableWrap {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+}
+
+.table thead tr {
+  background: #eaf1ff;
+}
+
+.table th {
+  padding: 13px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #61718b;
+  white-space: nowrap;
+}
+
+.table th:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.table th:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.sortBtn {
+  appearance: none;
+  background: transparent;
+  border: none;
+  padding: 2px 4px;
+  margin: -2px -4px;
+  border-radius: 6px;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.sortBtn:hover {
+  color: #17263c;
+  background: rgba(39, 103, 232, 0.08);
+}
+
+.sortIconMuted {
+  font-size: 12px;
+  color: #8a99b2;
+}
+
+.sortIconActive {
+  font-size: 12px;
+  color: #2767e8;
+}
+
+.row {
+  border-bottom: 1px solid #edf1f6;
+  transition: background-color 0.12s ease;
+}
+
+.row:hover {
+  background: #f8faff;
+}
+
+.table td {
+  padding: 13px 16px;
+  color: #17263c;
+  vertical-align: middle;
+}
+
+.txId {
+  color: #2767e8;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.dateCell {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.customerName {
+  font-weight: 500;
+  color: #17263c;
+}
+
+.productSub {
+  font-size: 11px;
+  color: #61718b;
+  margin-top: 2px;
+}
+
+.amountCell {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.statusText {
+  font-weight: 600;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.statusCompleted {
+  color: #137a55;
+}
+
+.statusPending {
+  color: #b67624;
+}
+
+.statusRefunded {
+  color: #b67624;
+}
+
+.statusFailed {
+  color: #c44545;
+}
+
+.mobileList {
+  display: none;
+}
+
+.emptyState {
+  margin-top: 20px;
+  padding: 48px 20px;
+  text-align: center;
+  background: #f5f7fb;
+  border: 1px dashed #cfd9e8;
+  border-radius: 12px;
+}
+
+.emptyTitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #17263c;
+}
+
+.emptyCopy {
+  margin: 8px auto 0;
+  max-width: 420px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #61718b;
+}
+
+.emptyResetBtn {
+  margin-top: 16px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 9px;
+  background: #2767e8;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.emptyResetBtn:hover {
+  background: #1f57c9;
+}
+
+@media (max-width: 768px) {
+  .tableWrap {
+    display: none;
+  }
+
+  .mobileList {
+    display: grid;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .mobileCard {
+    background: #ffffff;
+    border: 1px solid #dfe6f0;
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+  }
+
+  .mobileCardTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .mobileDate {
+    font-size: 12px;
+    color: #61718b;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mobileMeta {
+    margin: 0;
+    font-size: 12px;
+    color: #61718b;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  .mobileCardBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding-top: 4px;
+  }
+
+  .mobileAmount {
+    font-size: 15px;
+    font-weight: 700;
+    color: #17263c;
+    font-variant-numeric: tabular-nums;
+  }
+}
